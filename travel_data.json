@@ -1,0 +1,24 @@
+[
+    {
+      "destination": "Colorado",
+      "visits": 4,
+      "favorite_activity": "Snowboarding",
+      "rating": 9,
+      "year_last_visited": 2024
+    },
+    {
+      "destination": "Lake Michigan",
+      "visits": 2,
+      "favorite_activity": "Trout fishing in the tributary streams",
+      "rating": 8,
+      "year_last_visited": 2022
+    },
+    {
+      "destination": "Washington DC",
+      "visits": 2,
+      "favorite_activity": "Exploring the National Mall",
+      "rating": 7,
+      "year_last_visited": 2023
+    }
+  ]
+  

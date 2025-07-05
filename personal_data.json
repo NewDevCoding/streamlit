@@ -1,0 +1,26 @@
+{
+    "weeks": [
+      {
+        "week": "2025-06-23",
+        "running_days": 4,
+        "workout_days": 5,
+        "books_read": 2,
+        "coding_hours": 8,
+        "airsoft_sessions": 1,
+        "tabletop_sessions": 2,
+        "diorama_hours": 3
+      },
+      {
+        "week": "2025-06-30",
+        "running_days": 3,
+        "workout_days": 5,
+        "books_read": 1,
+        "coding_hours": 10,
+        "airsoft_sessions": 0,
+        "tabletop_sessions": 1,
+        "diorama_hours": 4
+      }
+     
+    ]
+  }
+  
