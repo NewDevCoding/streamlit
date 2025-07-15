@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
+import info
 
 # Load data from JSON file
 with open("travel_data.json", "r") as f:
@@ -86,3 +87,27 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 pie_data.plot.pie(autopct='%1.1f%%', ylabel='', ax=ax)
 st.pyplot(fig)
+
+
+def like_project_widget(project_id: str, project_name: str):
+   
+    like_key = f"liked_{project_id}"
+
+  
+    if like_key not in st.session_state:
+        st.session_state[like_key] = False
+
+   
+    st.subheader(project_name)
+
+    st.image(info.app, width = 600)
+
+    if st.session_state[like_key]:
+        st.success("❤️ You liked this project!")
+        if st.button("Undo Like", key=f"undo_{project_id}"):
+            st.session_state[like_key] = False
+    else:
+        if st.button("👍 Like", key=f"like_{project_id}"):
+            st.session_state[like_key] = True
+
+like_project_widget('12345678910', 'AI learning app')

@@ -4,6 +4,7 @@
 #CHANGE BELOW
 profile_picture = "images/profile.jpg"
 about_me = "I'm Isaac Sheridan. I am a CS student at Georgia Tech and aspiring tech entrapreneur. "
+app = 'images/app.png'
 
 
 #CHANGE BELOW (OPTIONAL)
